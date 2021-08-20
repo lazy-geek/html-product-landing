@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header id="header">
+        <!-- <img id="header-img" src="./img.png" alt=""> -->
+        <div id="title">Softonic</div>
+        <nav id="nav-bar">
+            <ul>
+                <li><a class="nav-link" href="#home">Home</a></li>
+                <li><a class="nav-link" href="#features">Features</a></li>
+                <li><a class="nav-link" href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+
+        <main>
+            <article id="home" class="hero">
+                <div class="left">
+                    <h1>PRO MAX GAMING WIRELESS HEADSET</h1>
+                    <span style="text-decoration: line-through;">$275</span>
+                    <span>$299</span>
+                    <p>Free shipping on orders over $19.00</p>
+                    <button type="submit">
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+                            stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-shopping-cart"
+                            style="margin-right: 5px; vertical-align: text-bottom;">
+                            <circle cx="9" cy="21" r="1"></circle>
+                            <circle cx="20" cy="21" r="1"></circle>
+                            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                        </svg>
+                        <circle cx="9" cy="21" r="1"></circle>
+                        <circle cx="20" cy="21" r="1"></circle>
+                        <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                        </svg>
+                        <span style=" vertical-align: text-bottom;">ADD TO CART</span>
+                    </button>
+                </div>
+
+
+                <div class="right">
+
+                    <img src="./product-1.png" alt="White Headphones">
+                </div>
+            </article>
+
+            <article id="info">
+                <div class="card">
+
+                    <h3>PRO-SOFT<span style="font-size: 10px;vertical-align: top; line-height: 2;"> TM</span> 30 MM</h3>
+                    <p>Precision Drivers</p>
+                </div>
+                <div class="card">
+                    <h3>PRO-SERIES</h3>
+                    <p>Gaming Headset</p>
+                </div>
+                <div class="card">
+                    <h3>PRO-TUNED</h3>
+                    <p>Esports Professionals</p>
+                </div>
+            </article>
+            <!-- linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%) -->
+            <article style="display: flex; justify-content: center; margin: 40px auto; width: 100%;">
+                <iframe id="video" width="1080" height="720" src="https://www.youtube.com/embed/bInJjmH31Hk"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </article>
+
+            <article id="features">
+                <section class="first">
+                    <div class="left">
+                        <img src="./product-4.png" alt="Black Headphones">
+                    </div>
+                    <div class="right">
+                        <h3>Voice Assistant</h3>
+                        <p>A dedicated button on the earcup let you engage your phone's digital assistant, giving you
+                            the
+                            ability to give it voice commands and get responses directly through the headphones</p>
+
+                        <h3>Touch Controls.</h3>
+                        <p>The earcup's touch-sensitive controls give you the ability to tap and swipe through multiple
+                            options. Quickly skip tracks, adjust volume, and more.</p>
+
+                        <h3>Wired or Wireless</h3>
+                        <p>Softonic headphones allow for convenient wireless playback thanks to Bluetooth technology,
+                            but
+                            what if that's not possible? If you can't go wireless, you can still enjoy listening with
+                            the H9
+                            headphones. Simply attached the included audio cable and plug in.</p>
+                    </div>
+                </section>
+                <section class="second">
+                    <div class="left">
+                        <h3>Hi-Res Audio Certified</h3>
+                        <p>A dedicated button on the earcup let you engage your phone's digital assistant, giving you
+                            the ability to give it voice commands and get responses directly through the headphones</p>
+
+                        <h3>40-Hour Playtime</h3>
+                        <p>The earcup's touch-sensitive controls give you the ability to tap and swipe through multiple
+                            options. Quickly skip tracks, adjust volume, and more.</p>
+
+                        <h3>BassUp™ Technology</h3>
+                        <p>Softonic headphones allow for convenient wireless playback thanks to Bluetooth technology,
+                            but what if that's not possible? If you can't go wireless, you can still enjoy listening
+                            with the H9 headphones. Simply attached the included audio cable and plug in.</p>
+                    </div>
+                    <div class="right">
+                        <img src="./product-3.png" alt="Gold Headphones">
+                    </div>
+                </section>
+            </article>
+            <!-- <form id="form">
+            <div class="form-group">
+                <label for="email" id="email-label">Email</label>
+                <input type="email" name="email" id="email" placeholder="Enter Your Email" required>
+            </div>
+            <div class="form-group">
+                <button id="submit" type="submit" >Submit</button>
+            </div>
+        </form> -->
+        </main>
+    </div>
+</body>
+
+</html>
