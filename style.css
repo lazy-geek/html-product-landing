@@ -233,3 +233,64 @@ form span{
     background-color: white;
     box-sizing: border-box;
 }
+
+@media (max-width:720px){
+    #home .right img{
+        transform: scale(0.8);
+    }
+    #features .first .left img, #features .second .right img {
+        transform: scale(0.8);
+    }
+}
+@media (max-width: 540px) {
+    .hero{
+        flex-direction: column;
+        padding-bottom: 10px;
+        padding-left: 0;
+        justify-content: left;
+        align-items: flex-start;
+    }
+    #home .left {
+        padding-left: 70px;
+        margin-top:150px;
+        margin-bottom: 20px;
+    }
+
+    #features .first .left img, #features .second {
+        width: 100%;
+    }
+    #features .first {
+        flex-direction: column;
+    }
+    #features .second {
+        flex-direction: column;
+    }
+    #header {
+        flex-direction: column;
+    }
+    #nav-bar ul {
+      
+        margin-top: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+    #nav-bar ul li {
+        margin-bottom: 10px;
+    }
+    #info {
+        flex-direction: column;
+        
+        align-items: center;
+    }
+    .card{
+        
+        margin-bottom: 10px;
+    }
+    #features .first .right, #features .second .left {
+        width: 100%;
+    }
+
+    footer {
+        padding: 0 20px;
+    }
+}
