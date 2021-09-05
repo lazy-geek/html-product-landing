@@ -198,3 +198,38 @@ feather-shopping-cart {
     margin-bottom: 20px;
     word-spacing: 2px;
 }
+
+footer {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: flex;
+}
+form span{
+    align-self: center;
+    margin-right: 10px;
+    font-weight: 500;
+}
+#submit {
+    padding: 8.5px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    background-color: blueviolet;
+    /* border-radius: 5px; */
+}
+
+#email {
+    outline: none;
+    /* width: 100%; */
+    padding: 7px;
+    font-size: 16px;
+    border: 0.5px solid blueviolet;
+    background-color: white;
+    box-sizing: border-box;
+}
