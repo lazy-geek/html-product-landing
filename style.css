@@ -48,10 +48,15 @@ main {
     max-width: inherit;
     width: 100%;
     padding: 20px 40px;
+    z-index: 1;
     align-items: center;
     justify-content: space-between;
 }
-
+#header-img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
 #title {
     width: 100%;
     font-size: 25px;
@@ -61,6 +66,7 @@ main {
 
 #nav-bar {
     width: 100%;
+    
 }
 
 #nav-bar ul {
