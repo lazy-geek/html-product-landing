@@ -247,6 +247,12 @@ form span{
     #features .first .left img, #features .second .right img {
         transform: scale(0.8);
     }
+    form{
+        flex-direction: column;
+    }
+    #email , form span {
+         margin: 0 0 5px 0;
+    }
 }
 @media (max-width: 540px) {
     .hero{
