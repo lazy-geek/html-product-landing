@@ -235,7 +235,8 @@ form span{
     /* width: 100%; */
     padding: 7px;
     font-size: 16px;
-    border: 0.5px solid blueviolet;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
     background-color: white;
     box-sizing: border-box;
 }
